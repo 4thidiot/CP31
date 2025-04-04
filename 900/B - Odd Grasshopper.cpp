@@ -22,7 +22,10 @@ int main()
 	   else
 	       add = n+1;
 	       
-	   if (abs(x)%2 == 1)    //Why it wont work without the abs for negative numbers?
+	   if (abs(x)%2 == 1)    //Why it wont work without the abs for negative numbers? 
+		  			 /* Haan samajh gaya
+						Actually -3%2 1 thoda hoga -1 hoga
+					I didnt realise that initially */
 	        add *= -1;
 	   
 	   cout<<x+add<<endl;     
